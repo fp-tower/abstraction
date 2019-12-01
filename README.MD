@@ -1,42 +1,12 @@
-![FP Foundation Logo](logo/Foundation.png)<br>
+![FP Abstraction Logo](logo/Foundation.png)<br>
 
 [![Join the chat at https://gitter.im/fp-tower/foundation](https://badges.gitter.im/julien-truffaut/fp-foundation.svg)][gitter]
 <span class="badge-patreon"><a href="https://www.patreon.com/bePatron?u=10482033" title="Donate to this project using Patreon"><img src="https://img.shields.io/badge/patreon-donate-yellow.svg" alt="Patreon donate button" /></a></span>
 
 ## Synopsis
 
-### [Introduction](https://fp-tower.github.io/foundation/index.html#1)
 
-### Module 1: [Function](https://fp-tower.github.io/foundation/1-Function.html#1)
-* First class functions
-* Polymorphic functions
-* Recursion, Lazyness
-* Pure functions
-* Memoization
-
-### Module 2: [Side Effect](https://fp-tower.github.io/foundation/2-SideEffect.html#1)
-* How to control effects
-* Thunk / IO
-* IO vs Future
-* Async IO
-* Restricted algebra
-
-### Module 3: [Error Handling](https://fp-tower.github.io/foundation/3-ErrorHandling.html#1)
-* How to safely deal with runtime errors
-* Compare error types: Option, Try, Either
-* Covariance
-* Introduction to OptionT, EitherT
-
-### Module 4: [Type](https://fp-tower.github.io/foundation/4-Type.html#1)
-* Unrepresentable state
-* Cardinality
-* How to measure the impact of types and tests
-* Parametricity
-* Relationship between logic, algebra and types
-
-### Module 5: Reader / Writer / State
-
-### Module 6: [Typeclass](https://fp-tower.github.io/foundation/6-Typeclass.html#1)
+### Module 1: [Typeclass](https://fp-tower.github.io/foundation/6-Typeclass.html#1)
 * Different implementations of ad-hoc polymorphism
 * Eq, Monoid
 * Typeclass laws
@@ -46,7 +16,7 @@
 * Higher kinded typeclass with Foldable
 * Typeclass abuses
 
-### Module 7: [Functors](https://fp-tower.github.io/foundation/7-Functors.html#1)
+### Module 2: [Functors](https://fp-tower.github.io/foundation/7-Functors.html#1)
 * Functor, Applicative, Monad, Traverse
 * Combining effects
 * Variance
