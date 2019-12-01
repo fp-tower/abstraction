@@ -2,16 +2,7 @@ package exercises.functors
 
 import cats.data.NonEmptyList
 import cats.effect.IO
-import exercises.errorhandling.Validated
-import exercises.errorhandling.Validated._
 import exercises.typeclass.{Monoid, Semigroup}
-import exercises.functors.Applicative.syntax._
-import exercises.functors.Functor.syntax._
-import exercises.functors.Monad.syntax._
-import exercises.functors.Traverse.syntax._
-import exercises.functors._
-import exercises.typeclass.Foldable.syntax._
-import exercises.typeclass.Monoid.syntax._
 import toimpl.functors.FunctorsToImpl
 
 object FunctorsExercises extends FunctorsToImpl {

@@ -2,7 +2,6 @@ package functors
 
 import answers.functors.FunctorsAnswers
 import cats.data.NonEmptyList
-import exercises.errorhandling.Validated
 import exercises.functors.Applicative.syntax._
 import exercises.functors.ContravariantFunctor.syntax._
 import exercises.functors.Functor.syntax._

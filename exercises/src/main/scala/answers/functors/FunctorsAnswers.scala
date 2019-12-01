@@ -3,15 +3,14 @@ package answers.functors
 import answers.typeclass.TypeclassAnswers._
 import cats.data.NonEmptyList
 import cats.effect.IO
-import exercises.errorhandling.Validated
-import exercises.errorhandling.Validated._
 import exercises.functors.Applicative.syntax._
 import exercises.functors.Functor.syntax._
-import exercises.functors.FunctorsExercises.{checkUserAdult, getOneUser, getOneUser_v2, User}
+import exercises.functors.FunctorsExercises.{User, checkUserAdult, getOneUser, getOneUser_v2}
 import exercises.functors.Traverse.syntax._
-import exercises.typeclass.Monoid.syntax._
-import exercises.functors._
+import exercises.functors.Validated.{ValidatedNel, _}
+import exercises.functors.{Validated, _}
 import exercises.typeclass.Foldable.syntax._
+import exercises.typeclass.Monoid.syntax._
 import exercises.typeclass.Semigroup.syntax._
 import exercises.typeclass.{Dual, Endo, Monoid, Semigroup}
 import toimpl.functors.FunctorsToImpl

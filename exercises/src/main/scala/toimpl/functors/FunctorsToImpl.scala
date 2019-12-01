@@ -2,10 +2,9 @@ package toimpl.functors
 
 import cats.data.NonEmptyList
 import cats.effect.IO
-import exercises.errorhandling.Validated
 import exercises.functors.FunctorsExercises.User
-import exercises.typeclass.{Monoid, Semigroup}
 import exercises.functors._
+import exercises.typeclass.{Monoid, Semigroup}
 
 trait FunctorsToImpl extends FunctorsToImplLowLevel {
 
