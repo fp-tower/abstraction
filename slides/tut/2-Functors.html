@@ -637,8 +637,8 @@ def left [A, E](e: E): Either[E, A] = Left(e)
 # Applicative combine effects: Failure
 
 ```tut:invisible
-import exercises.errorhandling.Validated
-import exercises.errorhandling.Validated._
+import exercises.functors.Validated
+import exercises.functors.Validated._
 ```
 
 ```tut
@@ -1049,8 +1049,8 @@ class: center, middle
 # Coherence implication
 
 ```tut:invisible:reset
-import exercises.errorhandling.Validated
-import exercises.errorhandling.Validated._
+import exercises.functors.Validated
+import exercises.functors.Validated._
 import exercises.typeclass.Semigroup
 import exercises.typeclass.Semigroup.syntax._
 import exercises.functors.{Applicative, Functor, Monad}
@@ -1059,10 +1059,21 @@ import exercises.functors.Functor.syntax._
 import exercises.functors.Monad.syntax._
 import answers.typeclass.TypeclassAnswers.nelSemigroup
 import answers.functors.FunctorsAnswers.validatedApplicative
+
+case class Username(value: String)
+
+sealed trait Country
+object Country {
+  case object France        extends Country
+  case object Germany       extends Country
+  case object Switzerland   extends Country
+  case object UnitedKingdom extends Country
+}
+
+case class User(username: Username, country: Country)
 ```
 
 ```tut:silent
-import answers.errorhandling.EitherAnswers.{Country, User, Username}
 import answers.functors.FunctorsAnswers.DefaultMonad
 
 def validateUsername(x: String): ValidatedNel[String, Username] = {
