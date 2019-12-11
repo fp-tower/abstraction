@@ -6,7 +6,7 @@
 ## Synopsis
 
 
-### Module 1: [Typeclass](https://fp-tower.github.io/foundation/6-Typeclass.html#1)
+### Module 1: [Typeclass](https://fp-tower.github.io/abstraction/1-Typeclass.html#1)
 * Different implementations of ad-hoc polymorphism
 * Eq, Monoid
 * Typeclass laws
@@ -16,7 +16,7 @@
 * Higher kinded typeclass with Foldable
 * Typeclass abuses
 
-### Module 2: [Functors](https://fp-tower.github.io/foundation/7-Functors.html#1)
+### Module 2: [Functors](https://fp-tower.github.io/abstraction/2-Functors.html#1)
 * Functor, Applicative, Monad, Traverse
 * Combining effects
 * Variance
@@ -44,10 +44,10 @@ Finally, go back to the slides and repeat the process. If you have any question,
 sbt testExercises$X
 ```
 
-For example tests for module 3 (Type) is run with:
+For example tests for module 1 (Typeclass) is run with:
 
 ```bash
-sbt testExercises3
+sbt testExercises1
 ```
 
 ### Is this course free?
